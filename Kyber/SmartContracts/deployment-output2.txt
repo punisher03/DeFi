@@ -1,0 +1,329 @@
+Compiling .\contracts\ConversionRatesInterface.sol...
+Compiling .\contracts\ERC20Interface.sol...
+Compiling .\contracts\ExpectedRateInterface.sol...
+Compiling .\contracts\FeeBurnerInterface.sol...
+Compiling .\contracts\KyberNetwork.sol...
+Compiling .\contracts\KyberNetworkInterface.sol...
+Compiling .\contracts\KyberNetworkProxy.sol...
+Compiling .\contracts\KyberNetworkProxyInterface.sol...
+Compiling .\contracts\KyberReserveInterface.sol...
+Compiling .\contracts\PermissionGroups.sol...
+Compiling .\contracts\SanityRatesInterface.sol...
+Compiling .\contracts\SimpleNetworkInterface.sol...
+Compiling .\contracts\Utils.sol...
+Compiling .\contracts\Utils2.sol...
+Compiling .\contracts\Utils3.sol...
+Compiling .\contracts\WhiteListInterface.sol...
+Compiling .\contracts\Withdrawable.sol...
+Compiling .\contracts\reserves\VolumeImbalanceRecorder.sol...
+Compiling .\contracts\reserves\aprConversionRate\LiquidityFormula.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderIdManager.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderList.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderListFactoryInterface.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderListInterface.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderbookReserve.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderbookReserveInterface.sol...
+Writing artifacts to .\build\contracts
+
+⚠️  Important ⚠️
+If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
+Try: npm install --save truffle-hdwallet-provider@web3-one
+
+
+Starting migrations...
+======================
+> Network name:    'matic'
+> Network id:      15001
+> Block gas limit: 8000000
+
+
+15_setup_KyberNetwork.js
+========================
+
+   Calling setKyberProxy()
+   ------------------------
+   > transaction hash: 0xa81fd9501c8664c192dd3a17b69a11cc0e9908102ab097d927013682e3efe9f9
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 31154
+   > event: KyberProxySet
+
+
+   Calling setFeeBurner()
+   ------------------------
+   > transaction hash: 0x8701f6fbf78c02d295a4d5a3cea7f719f35711cd1c6b242c5b889e26df9dbd59
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 30548
+   > event: FeeBurnerContractSet
+
+
+   Calling setWhiteList
+   ------------------------
+   > transaction hash: 0xcf5c137393e2e4c39e24b588b69de1e2faa252dbf6ef213d9dd547a7a8596bcd
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 30604
+   > event: WhiteListContractSet
+
+
+   Calling setExpectedRate
+   ------------------------
+   > transaction hash: 0x56335593bfd3d98be32722db9df10feb5261ef47a858be0d5bf15aa882d1f5ff
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 30834
+   > event: ExpectedRateContractSet
+
+
+   Calling setParams()
+   ------------------------
+   > transaction hash: 0xe3fc7ab6ddc25b9bd5e406a98d15821743d48545c019ed12840470c5254cc61e
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 34685
+   > event: KyberNetwrokParamsSet
+
+
+   Calling setEnable()
+   ------------------------
+   > transaction hash: 0x1a15ddf7cd4267d84a95657448ca96f09cbc0b3e7a0e189a392edaa3e1d90d3b
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 44762
+   > event: KyberNetworkSetEnable
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+16_add_PermissionlessOrderbookReserve.js
+========================================
+
+
+   Calling addOrderbookContract()
+   ------------------------
+   > transaction hash: 0xddc2b1b6dbc94d7742effc7a28b71621907f7e1822b37d2190c8c6f9e240744f
+   > contract address: 0xB320041DA6C19BF87E4Ec488DD21da95bc5fA630
+   > gas used: 3770701
+   > event: TokenOrderbookListingStage
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+17_transfer_tokens.js
+=====================
+
+   Calling initOrderbookContract()
+   ------------------------
+   > transaction hash: 0xac3a178bc909a5cc616a470ab96c68a13436379dbdbe9bedd434190deb6bb316
+   > contract address: 0xB320041DA6C19BF87E4Ec488DD21da95bc5fA630
+   > gas used: 2800671
+   > event: TokenOrderbookListingStage
+
+
+   Calling listOrderbookContract()
+   ------------------------
+   > transaction hash: 0x2fef181b0b6663acce88f88846d33fca969b8ff66833fd12fa0bc17901c05d40
+   > contract address: 0xB320041DA6C19BF87E4Ec488DD21da95bc5fA630
+   > gas used: 270745
+   > event: TokenOrderbookListingStage
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0x1d5c3740fbe596973b5adddb018f4c3b9905df91169066a3213800be1c16bd9d
+   > contract address: 0x5903820acD03cCadaDD36709D7c6B457247e23b7
+   > gas used: 51718
+   > event: Transfer
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0xe4ff85ae80d07348f76d9ec3a1f15d935a3b69fa8715ffd7a53e73e2e52b5bc1
+   > contract address: 0x414a66178E0CC0dE816d1E87C4d0F6C066a29612
+   > gas used: 51718
+   > event: Transfer
+
+
+   Calling depositKncForFee()
+   ------------------------
+   > transaction hash: 0xe905eb0db140dda6051ef2dae7ea27605a75cb6885c88423216d14b344d57b12
+   > contract address: 0x462964e4033e75444FC1ea8f4f30976974008BC2
+   > gas used: 150765
+   > event: KncFeeDeposited
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0xfbaa213ea3d635836ba7c29ac312bb8bd3b5f1174ec44b365536ee2c608a6a63
+   > contract address: 0x5e4e17B22404B3861549876C1a6fdEdeD0f119B2
+   > gas used: 51590
+   > event: Transfer
+
+
+   Calling depositEther()
+   ------------------------
+   > transaction hash: 0xe67b6db37570069ca5bcd1b07016e99725d0d72a86df210531296c938aa6edce
+   > contract address: 0x462964e4033e75444FC1ea8f4f30976974008BC2
+   > gas used: 45220
+   > event: EtherDeposited
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0x1814def0edb317ee759518c89d0e1c51719a55bfe76ac740c0f65e6cc3400885
+   > contract address: 0xDB05BF569042D1CfaCFb782C3fa67c9E47918732
+   > gas used: 51654
+   > event: Transfer
+
+
+   Calling depositToken()
+   ------------------------
+   > transaction hash: 0x496915ab97a29a4ee9049c7fe6856e876aca4ff7835c1e33f88a8e77e4ea6896
+   > contract address: 0x462964e4033e75444FC1ea8f4f30976974008BC2
+   > gas used: 82033
+   > event: TokenDeposited
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0x52e549fc23140715069e87ac05a4dcf8905346f7e8e0707d9b43fd890bae4cd7
+   > contract address: 0xF093d7B35a4cD3cB67ecAF392A2FddEBede13365
+   > gas used: 51718
+   > event: Transfer
+
+
+   Calling submitEthToTokenOrder()
+   ------------------------
+   > transaction hash: 0x2b7727b1c38803c66af99b4b46dbd100cc073ca4a9355473fac875f5e6e91f77
+   > contract address: 0x462964e4033e75444FC1ea8f4f30976974008BC2
+   > gas used: 132827
+   > event: NewLimitOrder
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0x6f22729ae2bdc1e94e6148f04e54ffb15938adcbe969d74479acb7ba90a94cc7
+   > contract address: 0x29CB4f4b7d7eDA073751FA8927e92B7baEE44A8B
+   > gas used: 51718
+   > event: Transfer
+
+
+   Calling submitTokenToEthOrder()
+   ------------------------
+   > transaction hash: 0x0727c8b19fe6233cd7cd1c46efee1005c140ad8ca7a1ad37426dc95c1db7c6f5
+   > contract address: 0x462964e4033e75444FC1ea8f4f30976974008BC2
+   > gas used: 118070
+   > event: NewLimitOrder
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0x522fc50fba7e3ed33a87b481e17d344c4db77f409b69c4bd0bddf5431cb5f856
+   > contract address: 0x5903820acD03cCadaDD36709D7c6B457247e23b7
+   > gas used: 51718
+   > event: Transfer
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0x8b1081b6a87a50b9541dba2d97217c6f21aaa7c27a2b1b974ef5922ace6d3a97
+   > contract address: 0x414a66178E0CC0dE816d1E87C4d0F6C066a29612
+   > gas used: 51718
+   > event: Transfer
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0x4e283c53463dfcb75773f782947f4f0679515c4fc124b174c23a06090b82ef25
+   > contract address: 0x5e4e17B22404B3861549876C1a6fdEdeD0f119B2
+   > gas used: 51590
+   > event: Transfer
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0x14de55f1c50a0d7d94f0ebd748273bfabd48adad602e03b88a9a3814489ee961
+   > contract address: 0xDB05BF569042D1CfaCFb782C3fa67c9E47918732
+   > gas used: 51654
+   > event: Transfer
+
+
+   Calling sendTransaction()
+   ------------------------
+   > transaction hash: 0x79d76c01ac4e5a00224ec3c9690a8cfd646b649484b70b2e2ddee0e61507feb4
+   > contract address: 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > gas used: 22484
+   > event: DepositToken
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+18_deployment_summary.js
+========================
+
+
+Network
+==================
+matic
+
+
+Permissions
+==================
+(admin) 0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+(operator) 0x293f6495D7056FB207Dd0FD843C8599daa707F34
+(alerter) 0x82F8557Cad3f0fc8A617e15ec73ae1c0DDFfb92c
+
+
+Wallets
+==================
+(user) 0x231655CF56797b23cbB6F9626b0e7B5871B6E60b
+(reserve) 0xb87Cc59ff3826D885A4feF02e489A6d05702F8C8
+(tax) 0x44E0b00E75B620A87B314702130Ac8c4DCD008D9
+(bob) 0xea3fE34F01D9Ca22D0D6B2c8A124b6FEf484e166
+(alice) 0x8980b36Dd3f4E111F61945b504c3B4269dcF3850
+
+
+Tokens
+==================
+(KNC) 0x5903820acD03cCadaDD36709D7c6B457247e23b7
+(OMG) 0x414a66178E0CC0dE816d1E87C4d0F6C066a29612
+(SALT) 0x5e4e17B22404B3861549876C1a6fdEdeD0f119B2
+(ZIL) 0xDB05BF569042D1CfaCFb782C3fa67c9E47918732
+(MANA) 0xF093d7B35a4cD3cB67ecAF392A2FddEBede13365
+(POLY) 0x565c71686f4Ee595FB2aE9088173b43ca36701B7
+(SNT) 0x29CB4f4b7d7eDA073751FA8927e92B7baEE44A8B
+(WETH) 0x494dE9b08140206f1931A84098e84DBB195ce595
+(DAI) 0x277aa793a197683D2f713bd29f0eD9FeA4aC1248
+
+Contracts
+==================
+(KyberNetwork) 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+(KyberNetworkProxy) 0x2796b1269Ac02715269027A4Bc74E7ecdd2f59a4
+(ConversionRates) 0x41F3a89424B74F5DCE7c376c43754f46B4976AC4
+(LiquidityConversionRates) 0x3B329f0324FFC778647cAC048790eE7189dD2a08
+(SanityRates) 0x8d7F4164ca59473A512081f5d7fb3de55B125f48
+(KyberReserve) 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+(KyberAutomatedReserve) 0xa810D27b1442fA5391660669368EbFA2d936Da3e
+(KyberOrderbookeserve) 0x33139c136332743137250690d7D1145702B17736
+(PermissionlessOrderbookReserveLister) 0xB320041DA6C19BF87E4Ec488DD21da95bc5fA630
+(FeeBurner) 0x626C14317eAf5F413913B5748dE013a02598eEF4
+(WhiteList) 0x646538f2471a7354267cEA3301A01a98601b357E
+(ExpectedRate) 0xb94F22956dc147aCd8024b8EAE4Ae2cdb73cB724
+(SwapEtherToToken) 0xF9A1059fE21CF771d1205b53a6B8538D443c9F8F
+(SwapTokenToEther) 0xf8f7d59f43d60Cd820226Ed09B08C9659993377A
+(SwapTokenToToken) 0xD10598DFa55dA0fdCcAEf6755989536EDc1fe69b
+(Trade) 0x668012e15Ad39d8Aec18BD4B499523765E053A0A
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+Summary
+=======
+> Total deployments:   0
+> Final cost:          0 ETH
+

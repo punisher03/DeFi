@@ -1,0 +1,1204 @@
+Compiling .\contracts\ConversionRatesInterface.sol...
+Compiling .\contracts\ERC20Interface.sol...
+Compiling .\contracts\ExpectedRateInterface.sol...
+Compiling .\contracts\FeeBurnerInterface.sol...
+Compiling .\contracts\KyberNetwork.sol...
+Compiling .\contracts\KyberNetworkInterface.sol...
+Compiling .\contracts\KyberNetworkProxy.sol...
+Compiling .\contracts\KyberNetworkProxyInterface.sol...
+Compiling .\contracts\KyberReserveInterface.sol...
+Compiling .\contracts\PermissionGroups.sol...
+Compiling .\contracts\SanityRatesInterface.sol...
+Compiling .\contracts\SimpleNetworkInterface.sol...
+Compiling .\contracts\Utils.sol...
+Compiling .\contracts\Utils2.sol...
+Compiling .\contracts\Utils3.sol...
+Compiling .\contracts\WhiteListInterface.sol...
+Compiling .\contracts\Withdrawable.sol...
+Compiling .\contracts\reserves\VolumeImbalanceRecorder.sol...
+Compiling .\contracts\reserves\aprConversionRate\LiquidityFormula.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderIdManager.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderList.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderListFactoryInterface.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderListInterface.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderbookReserve.sol...
+Compiling .\contracts\reserves\orderbookReserve\permissionless\OrderbookReserveInterface.sol...
+Writing artifacts to .\build\contracts
+
+⚠️  Important ⚠️
+If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
+Try: npm install --save truffle-hdwallet-provider@web3-one
+
+
+Starting migrations...
+======================
+> Network name:    'matic'
+> Network id:      15001
+> Block gas limit: 8000000
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x3fd623ce5e1a30cf3532e2e93e5fad6c77c469a69aa03ec177e4a6dcc0172138
+   > Blocks: 5            Seconds: 5
+   > contract address:    0x220CF036E7D0cA1248d972d931aD2ff764b9aC5e
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            202027
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+2_deploy_tokens.js
+==================
+
+   Replacing 'KyberNetworkCrystal'
+   -------------------------------
+   > transaction hash:    0x88187a519b855f9b5d82f4f5bf67f1fb9409ee01c713b5d39af9b01bfc146bc9
+   > Blocks: 4            Seconds: 6
+   > contract address:    0x5903820acD03cCadaDD36709D7c6B457247e23b7
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            736255
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'KyberGenesisToken'
+   -----------------------------
+   > transaction hash:    0xbb12da489b806c04c22f13bb179dd966af85a4ac91718b21e748e74b1b504e88
+   > Blocks: 5            Seconds: 6
+   > contract address:    0x38C6A69D46a193Cd3D26581f3B4c997c356498B1
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            720433
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'OmiseGo'
+   -------------------
+   > transaction hash:    0x63d491f8a19f432236f8fd4112943cbbebbd9560d07d1613d7f8e95fe5e9ba31
+   > Blocks: 5            Seconds: 5
+   > contract address:    0x414a66178E0CC0dE816d1E87C4d0F6C066a29612
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            735487
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'Salt'
+   ----------------
+   > transaction hash:    0x471c83775e9d95047e3629f7a20938f0eff7f5eee04c455c5ddcfbacdf52f0f5
+   > Blocks: 5            Seconds: 6
+   > contract address:    0x5e4e17B22404B3861549876C1a6fdEdeD0f119B2
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            735147
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'Zilliqa'
+   -------------------
+   > transaction hash:    0xe7cfed5dce551ff62395e1a3660b1489c5a10b32da81d304f67aeba64a444671
+   > Blocks: 4            Seconds: 5
+   > contract address:    0xDB05BF569042D1CfaCFb782C3fa67c9E47918732
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            735415
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'Mana'
+   ----------------
+   > transaction hash:    0xadb440580dbbe99db2dc5bb3ab18b440e05e856120d81672b96db55b2c060ba2
+   > Blocks: 2            Seconds: 6
+   > contract address:    0xF093d7B35a4cD3cB67ecAF392A2FddEBede13365
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            735227
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'Polymath'
+   --------------------
+   > transaction hash:    0x1c4c0910afeaaa623841a80b5dc4c621c05651e60fb30cc84cc8d34125b1971c
+   > Blocks: 5            Seconds: 6
+   > contract address:    0x565c71686f4Ee595FB2aE9088173b43ca36701B7
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            735547
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'Status'
+   ------------------
+   > transaction hash:    0x8c3b1f6967ccdbda232ee71efe213a282081024d88f9fbba51f8f5443f477d43
+   > Blocks: 5            Seconds: 5
+   > contract address:    0x29CB4f4b7d7eDA073751FA8927e92B7baEE44A8B
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            735423
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+3_deploy_contracts.js
+=====================
+
+   Replacing 'MockMedianizer'
+   --------------------------
+   > transaction hash:    0x708b81c7914d374921947a7039d9973900fc3b1db4a0a78d483c37ae4eeb1438
+   > Blocks: 5            Seconds: 5
+   > contract address:    0x6448A621E842fcaDEC7c3D4a54610e504C3E5e2d
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            140222
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'KyberNetwork'
+   ------------------------
+   > transaction hash:    0x28eef383c4d44efb8cba63aa93741289f028f53eb61e9c6666601cdc2a91d605
+   > Blocks: 5            Seconds: 5
+   > contract address:    0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            4268058
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'KyberNetworkProxy'
+   -----------------------------
+   > transaction hash:    0x8d7d24c641fedfe9bedef9357bd6087f063482afece10e97acfa89344cab3b66
+   > Blocks: 5            Seconds: 5
+   > contract address:    0x2796b1269Ac02715269027A4Bc74E7ecdd2f59a4
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            1827222
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'ConversionRates'
+   ---------------------------
+   > transaction hash:    0x93860b854c6644ec1d3c80ab7c422ba10380982549b3962a058edb31bf139da5
+   > Blocks: 5            Seconds: 6
+   > contract address:    0x41F3a89424B74F5DCE7c376c43754f46B4976AC4
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            3417839
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'LiquidityConversionRates'
+   ------------------------------------
+   > transaction hash:    0x3f14d32d782be42a8fefac265a65ee0eb217b49165194d3543b366c44bb144d1
+   > Blocks: 6            Seconds: 10
+   > contract address:    0x3B329f0324FFC778647cAC048790eE7189dD2a08
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            2360450
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'SanityRates'
+   -----------------------
+   > transaction hash:    0x7a425e7bace51bea7bfaddc06cbecc346f4407443b6ab54215db41a71e5aac41
+   > Blocks: 10           Seconds: 11
+   > contract address:    0x8d7F4164ca59473A512081f5d7fb3de55B125f48
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            1233106
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'FeeBurner'
+   ---------------------
+   > transaction hash:    0x1861089fd640fc6321bebcbc0a836a0cb61f6f8f0a21c50dc1d5e244ddee40ea
+   > Blocks: 9            Seconds: 10
+   > contract address:    0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            2069915
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'OrderListFactory'
+   ----------------------------
+   > transaction hash:    0x321e029deae26812a242777ca57da7c8ae72e7357cc7bae54c9f65b575926006
+   > Blocks: 5            Seconds: 6
+   > contract address:    0xf62c3A0E66FB5aC093D173d2db3ee58236779C49
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            1863027
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'KyberReserve'
+   ------------------------
+   > transaction hash:    0x43445e223fe7cff40aabed19c68c276cafd34278874559a83964cf4da0bc86c5
+   > Blocks: 5            Seconds: 5
+   > contract address:    0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            2348820
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'KyberAutomatedReserve'
+   ---------------------------------
+   > transaction hash:    0x959991d7564d3f5a424aaf120c79dac73a7c1d2fd7238dd821dc58893715c492
+   > Blocks: 6            Seconds: 6
+   > contract address:    0xa810D27b1442fA5391660669368EbFA2d936Da3e
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            2348820
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'KyberOrderbookReserve'
+   ---------------------------------
+   > transaction hash:    0x509d1d5d8d08382d8992a79b123d186dc50f02d18b8eff7b8ab482f1be675019
+   > Blocks: 4            Seconds: 5
+   > contract address:    0x33139c136332743137250690d7D1145702B17736
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            4909792
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'PermissionlessOrderbookReserveLister'
+   ------------------------------------------------
+   > transaction hash:    0xda895e01611d54f600d3c2e89c64f522c9d95d72efa00eeedea1bda36f5710ef
+   > Blocks: 5            Seconds: 5
+   > contract address:    0xB320041DA6C19BF87E4Ec488DD21da95bc5fA630
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            5843941
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'WhiteList'
+   ---------------------
+   > transaction hash:    0xdfb15c6f4e4b5b51e10ff36aed1325e72dad9ee0cc7108b2e71c85e2329b8c4b
+   > Blocks: 5            Seconds: 5
+   > contract address:    0x646538f2471a7354267cEA3301A01a98601b357E
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            1217438
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'ExpectedRate'
+   ------------------------
+   > transaction hash:    0x4126a22cdccf2677e3db0c929acee35c57159730e7127d7a121988bba5c673cf
+   > Blocks: 5            Seconds: 9
+   > contract address:    0xb94F22956dc147aCd8024b8EAE4Ae2cdb73cB724
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            1751405
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'SwapEtherToToken'
+   ----------------------------
+   > transaction hash:    0x7dfbaad3ae0339f523f670c6dfa264085ae8676e319441fbd6f7365902439537
+   > Blocks: 5            Seconds: 5
+   > contract address:    0xF9A1059fE21CF771d1205b53a6B8538D443c9F8F
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            265889
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'SwapTokenToEther'
+   ----------------------------
+   > transaction hash:    0x115bb7beb3ad677392b4475a171e8241ea26e7eb36d17f0f8aa88d958ed75546
+   > Blocks: 5            Seconds: 6
+   > contract address:    0xf8f7d59f43d60Cd820226Ed09B08C9659993377A
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            362759
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'SwapTokenToToken'
+   ----------------------------
+   > transaction hash:    0xd2ccd1842d25982e0a6be6ac7150f8c3fd57971e3db8a7afa75a5445e79cef2c
+   > Blocks: 5            Seconds: 5
+   > contract address:    0xD10598DFa55dA0fdCcAEf6755989536EDc1fe69b
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            394209
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   Replacing 'Trade'
+   -----------------
+   > transaction hash:    0xb3a6c57e8a78e2d3263b129eff24ff2c26036b6ac8df4ef876212a58965d6938
+   > Blocks: 5            Seconds: 6
+   > contract address:    0x668012e15Ad39d8Aec18BD4B499523765E053A0A
+   > account:             0x2a5c6E0Eb76915466C0CE771DCFb6f258a572336
+   > balance:             750
+   > gas used:            495267
+   > gas price:           0 gwei
+   > value sent:          0 ETH
+   > total cost:          0 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+4_setup_permissions.js
+======================
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0x1fc421093fa388bf5f0661436a8370ec0e9d9340bfcc2d8ada9e9a95d8d7b6af
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 87542
+   > event: OperatorAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0x6fc4a006acd1b5a1f77f639aade522d4ad572a171fb37056bd1b37f3e859f3ea
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 72542
+   > event: OperatorAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0x72c32670a61901b7070defe8f2f31649991f3b0bb5999cfced8212f697766070
+   > contract address: 0x41F3a89424B74F5DCE7c376c43754f46B4976AC4
+   > gas used: 87212
+   > event: OperatorAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0x27b22c9b2778deaddc28e0be7d382fa01982ef6b66a19642ce64896876c5f4aa
+   > contract address: 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > gas used: 87102
+   > event: OperatorAdded
+
+
+   Calling addAlerter()
+   ------------------------
+   > transaction hash: 0x8bafb209436bd791bc217a6a7caca85ca1bcec834c261457910235f632470b2c
+   > contract address: 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > gas used: 86860
+   > event: AlerterAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0x7ec74fbba29cf6dd80d8bd529b6c70910a2e9cbfa719fb158a4e3afd5ca18f73
+   > contract address: 0xa810D27b1442fA5391660669368EbFA2d936Da3e
+   > gas used: 87102
+   > event: OperatorAdded
+
+
+   Calling addAlerter()
+   ------------------------
+   > transaction hash: 0xe8ec0e3e7f6d36f44afbbea1b82432489767f3f13abbeba4ddb63713f9fd90ec
+   > contract address: 0xa810D27b1442fA5391660669368EbFA2d936Da3e
+   > gas used: 86860
+   > event: AlerterAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0x612efbf2e3410d7f6be5f14bbca09dcddc242489597a6646b9a6530a343e9ba6
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 87168
+   > event: OperatorAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0x02af0e252a0b2eb05b7d6a3faa2d5f121120a5f9d9992ec38d5ac23e2aef22ba
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 72168
+   > event: OperatorAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0xc5eed2c78a46cee9579612b5bd9e93b4f77a77b1ff09df8f8a9d7f2b037e50bc
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 87080
+   > event: OperatorAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0xa66c218483b1c128cea04c08f8844166cd85fe63e4804704b31bab3e78ecb298
+   > contract address: 0xb94F22956dc147aCd8024b8EAE4Ae2cdb73cB724
+   > gas used: 86948
+   > event: OperatorAdded
+
+
+   Calling addOperator()
+   ------------------------
+   > transaction hash: 0xc87e16bc86e8a363742969b2e49d42f59cee3ed1debfd157e60bdc0a597d41fe
+   > contract address: 0x8d7F4164ca59473A512081f5d7fb3de55B125f48
+   > gas used: 86907
+   > event: OperatorAdded
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+5_setup_KyberNetworkProxy.js
+============================
+
+   Calling setKyberNetworkContract()
+   ------------------------
+   > transaction hash: 0x811e9f0595803c06ec71c7a23d5720f4e7419523b1625be0bca2e48215df46a7
+   > contract address: 0x2796b1269Ac02715269027A4Bc74E7ecdd2f59a4
+   > gas used: 45878
+   > event: KyberNetworkSet
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+6_setup_KyberReserve.js
+=======================
+
+   Calling setContracts()
+   ------------------------
+   > transaction hash: 0x70707b1e5571c2ffc2b244ecd3e29b1894c4a0d2f74d7999f762b326961b0df7
+   > contract address: 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > gas used: 59363
+   > event: SetContractAddresses
+
+
+   Calling addReserve()
+   ------------------------
+   > transaction hash: 0x2b6859ca3003308a11402cf3c6f48f9c53d7d0536566b3439077456a26fcf6b4
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 88048
+   > event: AddReserveToNetwork
+
+
+
+   Calling approveWithdrawAddress()
+   ------------------------
+   > transaction hash: 0xaa6bc80276c2936a1bf001baf14b863777bb2f9229475baba3713a3900aee4ce
+   > contract address: 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > gas used: 114919
+   > event: WithdrawAddressApproved
+
+
+   Calling approveWithdrawAddress()
+   ------------------------
+   > transaction hash: 0x82be360c05e5dfc5de68d0804a811694bd3ff516338306f0320bef860e7dbff3
+   > contract address: 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > gas used: 114919
+   > event: WithdrawAddressApproved
+
+
+   Calling approveWithdrawAddress()
+   ------------------------
+   > transaction hash: 0xb272532bab2ccbed02721a55984ab36cf131c9fd9c3e3970eefc4907446e0b7b
+   > contract address: 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > gas used: 114919
+   > event: WithdrawAddressApproved
+
+
+   Calling approveWithdrawAddress()
+   ------------------------
+   > transaction hash: 0x6d9ad2442586bd8675d35a96dd2628ef89355d19d187388cd6278cf2896f9875
+   > contract address: 0xD82d15016318a36D2ea8d72728bBe18684fE6917
+   > gas used: 114919
+   > event: WithdrawAddressApproved
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+   Calling listPairForReserve()
+   ------------------------
+   > transaction hash: 0xbf40952deb77b74d3ea66c9d5923257f6671bc160b82a6f4f21f6302528b6000
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 161801
+   > event: ListReservePairs
+
+
+7_setup_KyberAutomatedReserve.js
+================================
+
+   Calling listPairForReserve()
+   ------------------------
+   > transaction hash: 0x72c144ce16ff2af2d9e22cdcd243bf08e4f289cfd86198509ecef67e8aca8847
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 161801
+   > event: ListReservePairs
+
+
+   Calling listPairForReserve()
+   ------------------------
+   > transaction hash: 0x341da0c9193092da88ac7d1e18a903d939a35efe4999bffdc024e10fe59f81fa
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 161801
+   > event: ListReservePairs
+
+
+   Calling listPairForReserve()
+   ------------------------
+   > transaction hash: 0x44f9ab2d18f5ef04311ba3e0dc9831fb3276614e0b89d8a118b970d76b5f9f0d
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 161801
+   > event: ListReservePairs
+
+
+   Calling setContracts()
+   ------------------------
+   > transaction hash: 0x4aa9463af7fcd8d7eed4cfbe7209c4bb7dba1ec219843d3b149577c50dfc33ed
+   > contract address: 0xa810D27b1442fA5391660669368EbFA2d936Da3e
+   > gas used: 43083
+   > event: SetContractAddresses
+
+
+   Calling addReserve()
+   ------------------------
+   > transaction hash: 0xd7f9eafcea8e28d302c02e6dd39113cc225b03277bc32ed13288904c5f62cc27
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 73048
+   > event: AddReserveToNetwork
+
+
+   Calling approveWithdrawAddress()
+   ------------------------
+   > transaction hash: 0x4d51636c4f824920d815bdfc03490311fe39730d320edc115ec239bc3136b04a
+   > contract address: 0xa810D27b1442fA5391660669368EbFA2d936Da3e
+   > gas used: 114919
+   > event: WithdrawAddressApproved
+
+
+   Calling listPairForReserve()
+   ------------------------
+   > transaction hash: 0xabf470d4c245bc610193d4b6f727eec17e146710c6077dfe901cd8d8e51deb34
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 161801
+   > event: ListReservePairs
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+8_setup_KyberOrderbookReserve.js
+================================
+
+   Calling init()
+   ------------------------
+   > transaction hash: 0xef293ee00e1ca737daaad057a731803c5609b1622d3ca726c332e63b78c46c98
+   > contract address: null
+   > gas used: 2789461
+   > event: null
+
+
+   Calling addReserve()
+   ------------------------
+   > transaction hash: 0xc62757342ce50d22419ba8266097190d8f77168e08d8ba22b68e2e7221940d8c
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 73048
+   > event: AddReserveToNetwork
+
+
+   Calling listPairForReserve()
+   ------------------------
+   > transaction hash: 0xaa3011e5d87a7ef3eac5b346a45c955999a2b5aab028ba4a0fd3bca9fb78fadc
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 161801
+   > event: ListReservePairs
+
+
+   Calling depositKncForFee()
+   ------------------------
+   > transaction hash: 0xb5863767aed727c0d68a7b08142e65c117bcefe4c4496b4290581b7f2f145773
+   > contract address: 0x33139c136332743137250690d7D1145702B17736
+   > gas used: 150765
+   > event: KncFeeDeposited
+
+
+   Calling depositEther()
+   ------------------------
+   > transaction hash: 0x79060da5902e236b00d812e7025619ae7dccb3adeb838e9ff551685154241669
+   > contract address: 0x33139c136332743137250690d7D1145702B17736
+   > gas used: 45220
+   > event: EtherDeposited
+
+
+   Calling depositToken()
+   ------------------------
+   > transaction hash: 0x8b50b8f7b6e8c0372e9b3852d2dc288e81e7779575787ef15c9bcabd7a3b3b62
+   > contract address: 0x33139c136332743137250690d7D1145702B17736
+   > gas used: 82033
+   > event: TokenDeposited
+
+
+   Calling submitEthToTokenOrder()
+   ------------------------
+   > transaction hash: 0x878a2115c3509c284a0a5082807cd4ced686858ddab274d62389f9af8e4527ea
+   > contract address: 0x33139c136332743137250690d7D1145702B17736
+   > gas used: 132827
+   > event: NewLimitOrder
+
+
+   Calling submitTokenToEthOrder()
+   ------------------------
+   > transaction hash: 0x32f03ad1e05f42e59af16076b43f4b50835bd4d379e0b94712418c1d0fede7be
+   > contract address: 0x33139c136332743137250690d7D1145702B17736
+   > gas used: 118070
+   > event: NewLimitOrder
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+9_setup_FeeBurner.js
+====================
+
+   Calling setReserveData()
+   ------------------------
+   > transaction hash: 0x5c63c5d2ce374b66a8ba889f08bf2bed56d0ad2c1c5a3eb5c439fd3a55f63e19
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 67619
+   > event: ReserveDataSet
+
+
+   Calling setReserveData()
+   ------------------------
+   > transaction hash: 0x7afd3392ec99216b1ad66c15e5a5bcf7bfecff4caa56a351f0305773ca87856e
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 67619
+   > event: ReserveDataSet
+
+
+   Calling setReserveData()
+   ------------------------
+   > transaction hash: 0xac01cb41c4e64d10f19aa172f9fe9ce50f9a9fcea203559853f3cbefc0d48c89
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 67619
+   > event: ReserveDataSet
+
+
+   Calling setTaxInBps()
+   ------------------------
+   > transaction hash: 0x03232781032b53963d5c09f04429ba08d31b840e3d9261c429676fbd7d834b24
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 43581
+   > event: TaxFeesSet
+
+
+   Calling setTaxWallet()
+   ------------------------
+   > transaction hash: 0xcb199d9bf1601bddf2cbbd1aeb9ff63178a1795e9033f792115ad357dbc3b006
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 45496
+   > event: TaxWalletSet
+
+
+
+   Calling setWalletFees()
+   ------------------------
+   > transaction hash: 0x62d987329a877c6fa9b0b9e26ebd6fe6560867764b62fb5ea204a26a13e47706
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 45432
+   > event: WalletFeesSet
+
+
+   Calling setWalletFees()
+   ------------------------
+   > transaction hash: 0x3bc96c7ebf9541cd2e136e835ca6cb1d261821648bd3a36b2e095409c6bdcc6e
+   > contract address: 0x626C14317eAf5F413913B5748dE013a02598eEF4
+   > gas used: 45432
+   > event: WalletFeesSet
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+10_setup_ExpectedRate.js
+========================
+
+   Calling setWorstCaseRateFactor()
+   ------------------------
+   > transaction hash: 0xf69022d2faef5e02d5ec60b1d25abdcc8d0467fe8a621d2e1ecf4be50dc50cb0
+   > contract address: 0xb94F22956dc147aCd8024b8EAE4Ae2cdb73cB724
+   > gas used: 29422
+   > event: MinSlippageFactorSet
+
+
+   Calling setQuantityFactor()
+   ------------------------
+   > transaction hash: 0x714ebd195e9b163b72379986b27fe442c7639dd23c8d7da4157bd56c288d45b2
+   > contract address: 0xb94F22956dc147aCd8024b8EAE4Ae2cdb73cB724
+   > gas used: 29094
+   > event: QuantityFactorSet
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+11_setup_ConversionRates.js
+===========================
+
+   Calling addToken()
+   ------------------------
+   > transaction hash: 0x9299a8ba459afaa9416ce21d43dbb164fb414899545e3fa0a0650aae9bed5e19
+   > contract address: null
+   > gas used: 225514
+   > event: null
+
+
+   Calling addToken()
+   ------------------------
+   > transaction hash: 0x887af5dd8f0ab962c600364aa4f0fc30fae4919f081ccdc2b30f2b17b772f897
+   > contract address: null
+   > gas used: 261150
+   > event: null
+
+
+   Calling addToken()
+   ------------------------
+   > transaction hash: 0x64dc4b54e5c875e55c867b30dff4bf0b6929fd890f6512460f9258e7060f2db8
+   > contract address: null
+   > gas used: 225514
+   > event: null
+
+
+   Calling addToken()
+   ------------------------
+   > transaction hash: 0x5f4d691e3412acac651cc05d66d814cc3523c27505f313d96be802fe6effd543
+   > contract address: null
+   > gas used: 225514
+   > event: null
+
+
+   Calling setValidRateDurationInBlocks()
+   ------------------------
+   > transaction hash: 0x7d5284f8b3a62b928ec52b901d383e22378bad1404b3b36fbe05e7c482ec18e2
+   > contract address: null
+   > gas used: 27406
+   > event: null
+
+
+   Calling setTokenControlInfo()
+   ------------------------
+   > transaction hash: 0xc1de8c05fdff2ff3872e6da6b211219b8b0dc749c309e9e669e551d0c8e0d060
+   > contract address: null
+   > gas used: 85531
+   > event: null
+
+
+   Calling setTokenControlInfo()
+   ------------------------
+   > transaction hash: 0xd96390686269dca6358fa371ed6ca7bc3989c2fde8cb33157ffb0cdb0c2608ab
+   > contract address: null
+   > gas used: 85339
+   > event: null
+
+
+   Calling setTokenControlInfo()
+   ------------------------
+   > transaction hash: 0xf1ce20a55bad80a36010ab00a0c3234d4ac9ef76107adaa161cf090b3c2c294c
+   > contract address: null
+   > gas used: 85467
+   > event: null
+
+
+   Calling setTokenControlInfo()
+   ------------------------
+   > transaction hash: 0x54f8ae4dac57ce8146d58328b0d11fec98e0cd12d80adb79020ce328b17d584e
+   > contract address: null
+   > gas used: 85531
+   > event: null
+
+
+   Calling setReserveAddress()
+   ------------------------
+   > transaction hash: 0x26b62bd1698658991fd61660a2cc99bffc5dcb77d11471bd86dce495cbe1e5c2
+   > contract address: null
+   > gas used: 43663
+   > event: null
+
+
+   Calling setQtyStepFunction()
+   ------------------------
+   > transaction hash: 0x616818ade377f8aeb0e0178de497502f9a0dc0713be694b394785fc2295fa6b8
+   > contract address: null
+   > gas used: 129856
+   > event: null
+
+
+   Calling setQtyStepFunction()
+   ------------------------
+   > transaction hash: 0xefeaa8b6dda4e9eb53a0b9dcdfe7d7c6db0d02c148f30cddd7821b73c2e371bc
+   > contract address: null
+   > gas used: 129856
+   > event: null
+
+
+   Calling setQtyStepFunction()
+   ------------------------
+   > transaction hash: 0xb327ecf1d7595722fb4fb87bc5d23a9df74345bdb4350d2cea379755b6618874
+   > contract address: null
+   > gas used: 129856
+   > event: null
+
+
+   Calling setQtyStepFunction()
+   ------------------------
+   > transaction hash: 0x9d0a1170dfc9b3eb2340a4e0bdf77c19be235e61065e23906582db0dd6cfd8d0
+   > contract address: null
+   > gas used: 129856
+   > event: null
+
+
+   Calling setBaseRate()
+   ------------------------
+   > transaction hash: 0xb550ada54a34abd273021c61c2b70661eba2bf6d09ab782ab7cdd18fcb34aa10
+   > contract address: null
+   > gas used: 241236
+   > event: null
+
+
+
+   Calling setImbalanceStepFunction()
+   ------------------------
+   > transaction hash: 0xb588f2ff5ab03e20ba7e1a618b2d5c0fc740c252c98f08020fb9b2b97e1dc664
+   > contract address: null
+   > gas used: 129997
+   > event: null
+
+
+   Calling setImbalanceStepFunction()
+   ------------------------
+   > transaction hash: 0x48fcaf71644ea60464577f785bc8c61c9de204848a0b9a5e8c83fc19e8c6a429
+   > contract address: null
+   > gas used: 129997
+   > event: null
+
+
+   Calling setImbalanceStepFunction()
+   ------------------------
+   > transaction hash: 0x5af7ca0380510ec3b4b49d119bfc85ccb46afabfdd3942be895a595b03e51b11
+   > contract address: null
+   > gas used: 129997
+   > event: null
+
+
+   Calling setImbalanceStepFunction()
+   ------------------------
+   > transaction hash: 0xaba36c1b375c5946c02651cb37a18aa18004840652b40e6865e228a8fc10bce7
+   > contract address: null
+   > gas used: 129997
+   > event: null
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+12_setup_LiquidityConversionRates.js
+====================================
+
+   Calling enableTokenTrade()
+   ------------------------
+   > transaction hash: 0xff45449d16f2b8c9c6517d8c177cc15cb8959e1b33f7aa86bdbd45a343f9e3dd
+   > contract address: null
+   > gas used: 29473
+   > event: null
+
+
+   Calling enableTokenTrade()
+   ------------------------
+   > transaction hash: 0xb22f494d82defbb83cc6fbaefb96c8078f767963b1ecdc3498a38ec2a95af2e6
+   > contract address: null
+   > gas used: 29473
+   > event: null
+
+
+   Calling enableTokenTrade()
+   ------------------------
+   > transaction hash: 0x51d6b7e283e0e0a8e3922a1114eca7eae9d58d60dbeac69b07e164df29296e17
+   > contract address: null
+   > gas used: 29473
+   > event: null
+
+
+   Calling enableTokenTrade()
+   ------------------------
+   > transaction hash: 0x7e88158d65ab977f0d43972ba411f95d8c457e38101b4bcd5470ebc517b0085d
+   > contract address: null
+   > gas used: 29473
+   > event: null
+
+
+   Calling setReserveAddress()
+   ------------------------
+   > transaction hash: 0x918d1a4599e2b95bb7544146c155a6664132df3493062b791581308462941d99
+   > contract address: 0x3B329f0324FFC778647cAC048790eE7189dD2a08
+   > gas used: 44804
+   > event: ReserveAddressSet
+
+
+   Calling transfer()
+   ------------------------
+   > transaction hash: 0xf7ebb399b020db126d3e507a30706540be55e7a14e94571f8b66bb2ccfc86356
+   > contract address: 0xF093d7B35a4cD3cB67ecAF392A2FddEBede13365
+   > gas used: 51782
+   > event: Transfer
+
+
+   Calling sendTransaction()
+   ------------------------
+   > transaction hash: 0xccf380cbe7ec484faf0a1acb05c14579dfeb88ba19f49b8a38f9098de5999f0a
+   > contract address: 0xa810D27b1442fA5391660669368EbFA2d936Da3e
+   > gas used: 22484
+   > event: DepositToken
+
+
+   Calling setLiquidityParams()
+   ------------------------
+   > transaction hash: 0x7638383e1de9c984867bb2c918acb5c4f0314bb2a511b35083fa5e34b2594846
+   > contract address: 0x3B329f0324FFC778647cAC048790eE7189dD2a08
+   > gas used: 272727
+   > event: LiquidityParamsSet
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+13_setup_SanityRates.js
+=======================
+
+   Calling setReasonableDiff()
+   ------------------------
+   > transaction hash: 0x993ea745d8b55e3f0fafcc02760124f534aeabb424749966fcf80379da9db9a8
+   > contract address: null
+   > gas used: 111318
+   > event: null
+
+
+   Calling setSanityRates()
+   ------------------------
+   > transaction hash: 0xd4aac92774b07d4213e52193e8245acc05480303a2969b30d170f0b5f7e929c4
+   > contract address: null
+   > gas used: 112686
+   > event: null
+
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+14_setup_WhiteList.js
+=====================
+
+   Calling setSgdToEthRate()
+   ------------------------
+   > transaction hash: 0x2c7d560484bdd7a46045b7c485dbdaff1d5ceae66c76d50c65a686986796bf9e
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 43677
+   > event: SgdToWeiRateSet
+
+
+   Calling setCategoryCap()
+   ------------------------
+   > transaction hash: 0x6a15fecc25d25bda28b53bb6c4ba86000e9051d880d2f4c2166daa01d2346ea8
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 43935
+   > event: CategoryCapSet
+
+
+   Calling setCategoryCap()
+   ------------------------
+   > transaction hash: 0x89cf2356c53a14b42f1de0753935ffa22346bf06a586e742b6c81d0e2a03d1b1
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 43999
+   > event: CategoryCapSet
+
+
+   Calling setUserCategory()
+   ------------------------
+   > transaction hash: 0x37faf8c7927cd7052cc10ad31da9fd3bceae618e94d36f886bf393b94fc2e8d5
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 45144
+   > event: UserCategorySet
+
+
+   Calling setCategoryCap()
+   ------------------------
+   > transaction hash: 0x60e0c33a17a92082f3cc3a9649df8f0e2684c5705d71a5b5c0dbab2a257ea61e
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 28743
+   > event: CategoryCapSet
+
+
+   Calling setCategoryCap()
+   ------------------------
+   > transaction hash: 0x9c4cd4346af9430217eaa0bace62667e75e6bfa4bf601e237e79dc853d58714a
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 43999
+   > event: CategoryCapSet
+
+
+
+   Calling setUserCategory()
+   ------------------------
+   > transaction hash: 0x8246cb491e404b84aa699fe6bc83da8a2f7206900cf47cb619730583e9eb077f
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 45144
+   > event: UserCategorySet
+
+
+   Calling setUserCategory()
+   ------------------------
+   > transaction hash: 0x13eb0745c796644288f906e23657e55a0f3632e8842956e3cf5e63dae594f510
+   > contract address: 0x646538f2471a7354267cEA3301A01a98601b357E
+   > gas used: 45144
+   > event: UserCategorySet
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+15_setup_KyberNetwork.js
+========================
+
+   Calling setKyberProxy()
+   ------------------------
+   > transaction hash: 0xbcb319b4e1f448d7129d7410ccbe564280c1813ae1e39d3ae9a1f07077dc2c15
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 46154
+   > event: KyberProxySet
+
+
+   Calling setFeeBurner()
+   ------------------------
+   > transaction hash: 0x730ae43da072208a883257f0014eb0ab9193acbc1a0b926e1e2ac8ee3a06b08d
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 45548
+   > event: FeeBurnerContractSet
+
+
+   Calling setWhiteList
+   ------------------------
+   > transaction hash: 0xf14ae1b7cc4c83e0769d415791b1998b763ec2505035b087f59cac7a1670fac6
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 45604
+   > event: WhiteListContractSet
+
+
+   Calling setExpectedRate
+   ------------------------
+   > transaction hash: 0x5fa96494d186492d8a342364098ad8e8cfa05b78a96602a7a74eb4b1c3c9ff9b
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 45834
+   > event: ExpectedRateContractSet
+
+
+   Calling setParams()
+   ------------------------
+   > transaction hash: 0x2e00e3c990b33442b533184644eb3bf918459d78579bbae8725115adc0cb5bc8
+   > contract address: 0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A
+   > gas used: 34685
+   > event: KyberNetwrokParamsSet
+
+Could not connect to your Ethereum client. Please check that your Ethereum client:
+    - is running
+    - is accepting RPC connections (i.e., "--rpc" option is used in geth)
+    - is accessible over the network
+    - is properly configured in your Truffle configuration file (truffle.js)
+
+Truffle v5.0.0-beta.2 (core: 5.0.0-beta.2)
+Solidity v0.5.0 (solc-js)
+Node v10.11.0

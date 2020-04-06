@@ -1,0 +1,129 @@
+{
+    "connections": {
+        "http": [
+            {
+                "endPoint": "https://testnetv3.matic.network/",
+                "type": "prune"
+            }
+        ],
+        "ws": "wss://mainnet.infura.io/ws"
+    },
+    "min_accept_amount": 0.5,
+    "api_usd": "https://api.coinmarketcap.com",
+    "api_tokens": "https://api.kyber.network/internal/currencies",
+    "priority_tokens": [
+        "ETH",
+        "DAI",
+        "KNC"
+    ],
+    "market_exclude": [
+        "WETH",
+        "PT",
+        "ETH"
+    ],
+    "limitOrder": {
+        "minSupportOrder": 0.1,
+        "maxSupportOrder": 10,
+        "maxPercentTriggerRate": 900,
+        "page_size": 50
+    },
+    "promo_token": "PT",
+    "wrapETHToken": "WETH",
+    "userdashboard_url": "http://localhost:3002",
+    "tokens_gas": {
+        "ETH": 0,
+        "DAI": 450000,
+        "DGX": 750000
+    },
+    "tokens": {
+        "ETH": {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18,
+            "cg_id": "ethereum",
+            "gasLimit": "0",
+            "sp_limit_order": true,
+            "is_quote": true
+        },
+        "WETH": {
+            "symbol": "WETH",
+            "name": "Wrapped Ether",
+            "address": "0x494dE9b08140206f1931A84098e84DBB195ce595",
+            "decimals": 18,
+            "cg_id": "weth",
+            "priority": true,
+            "sp_limit_order": true,
+            "is_quote": true
+        },
+        "KNC": {
+            "symbol": "KNC",
+            "name": "KyberNetwork",
+            "address": "0x5903820acD03cCadaDD36709D7c6B457247e23b7",
+            "decimals": 18,
+            "cg_id": "kyber-network",
+            "priority": true,
+            "sp_limit_order": true
+        },
+        "DAI": {
+            "symbol": "DAI",
+            "name": "DAI",
+            "address": "0x277aa793a197683D2f713bd29f0eD9FeA4aC1248",
+            "decimals": 18,
+            "cg_id": "dai",
+            "gasLimit": "500000",
+            "priority": true,
+            "sp_limit_order": true,
+            "is_quote": true
+        },
+        "OMG": {
+            "symbol": "OMG",
+            "name": "OmiseGO",
+            "address": "0x414a66178E0CC0dE816d1E87C4d0F6C066a29612",
+            "decimals": 18,
+            "cg_id": "omisego",
+            "priority": true,
+            "sp_limit_order": true
+        },
+        "POLY": {
+            "symbol": "POLY",
+            "name": "Polymath",
+            "address": "0x565c71686f4Ee595FB2aE9088173b43ca36701B7",
+            "decimals": 18,
+            "cg_id": "polymath-network"
+        },
+        "SNT": {
+            "symbol": "SNT",
+            "name": "Status",
+            "address": "0x29CB4f4b7d7eDA073751FA8927e92B7baEE44A8B",
+            "decimals": 18,
+            "cg_id": "status",
+            "sp_limit_order": true
+        },
+        "MANA": {
+            "symbol": "MANA",
+            "name": "Mana",
+            "address": "0xF093d7B35a4cD3cB67ecAF392A2FddEBede13365",
+            "decimals": 18,
+            "cg_id": "decentraland",
+            "priority": true,
+            "sp_limit_order": true
+        }
+    },
+    "ethScanUrl": "https://testnetv3-explorer.matic.network/",
+    "broadcastTx": "https://broadcast.kyber.network/",
+    "enjinx": "https://kyber.enjinx.io/",
+    "bank": "0x0",
+    "reserve": "0xa810D27b1442fA5391660669368EbFA2d936Da3e",
+    "kyberswapAddress": "0xD10598DFa55dA0fdCcAEf6755989536EDc1fe69b",
+    "network": "0x807d324414Cc428FC6dAC6ee49D0121B4b67d41A",
+    "wrapper": "0x9f134061506c29d3ae44a03b8148150e1aaa0776",
+    "payWrapper": "0x453f8df0a55e666671aa183d04ec0e16f52eacd7",
+    "endpoint": "https://testnetv3.matic.network/",
+    "averageBlockTime": 15000,
+    "networkId": 15001,
+    "chainName": "matic",
+    "gasstation_endpoint": "https://ethgasstation.info/json/ethgasAPI.json",
+    "tracker": "https://api.kyber.network",
+    "statEndPoint": "https://mainnet-data.kyber.network"
+}
